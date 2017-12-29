@@ -50,13 +50,13 @@ Please make sure this key is not used elsewhere.
 ## Install
 
 You can download the 64-bit binaries from
-[the releases section](https://github.com/Fullscreen/aws-rotate-key/releases/latest)
+[the releases section](https://github.com/uw-it-edm/aws-rotate-key/releases/latest)
 of this repository.
 
 Or, you can use our homebrew tap on OSX:
 
 ```
-brew tap fullscreen/tap
+brew tap uw-it-edm/tap
 brew install aws-rotate-key
 aws-rotate-key
 ```
@@ -94,7 +94,7 @@ Replace `AWS_ACCOUNT_ID` with your AWS account id.
 
 To download and hack on the source code, run:
 ```
-$ go get -u github.com/Fullscreen/aws-rotate-key
-$ cd $GOPATH/src/github.com/Fullscreen/aws-rotate-key
+$ go get -u github.com/uw-it-edm/aws-rotate-key
+$ cd $GOPATH/src/github.com/uw-it-edm/aws-rotate-key
 $ go build
 ```
